@@ -8,6 +8,6 @@ public class POSMainController {
 
 	@GetMapping("/hello")
 	public String Hello(){
-		return"My first pos service";
+		return"First pos service";
 	}
 }
